@@ -1,6 +1,6 @@
 If you call equals() on two StringBuilder instances, it will check the reference equality.
 
-```
+```java
 public class StringBuilderExplained {
     public static void main(String[] args) {
         StringBuilder obj1 = new StringBuilder("Foo");
@@ -10,5 +10,4 @@ public class StringBuilderExplained {
         System.out.println("obj1.equals(obj3): " + obj1.equals(obj3));
     }
 }
-
 ```
