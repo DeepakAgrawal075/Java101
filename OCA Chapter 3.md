@@ -1,4 +1,4 @@
-If you call equals() on two StringBuilder instances, it will check the reference equality.
+If you call _equals()_ method on two _StringBuilder_ instances, it will check the reference equality.
 
 ```java
 public class StringBuilderExplained {
