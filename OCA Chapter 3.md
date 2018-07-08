@@ -10,4 +10,5 @@ public class StringBuilderExplained {
         System.out.println("obj1.equals(obj3): " + obj1.equals(obj3));
     }
 }
+
 ```
