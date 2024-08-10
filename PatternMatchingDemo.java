@@ -35,7 +35,7 @@ public class PatternMatchingDemo {
     private static String callAfter(Object obj) {
         if (obj instanceof Integer) {
             return "Integer: " + obj;
-        } else if (obj instanceof String str) { // Pattern matching
+        } else if (obj instanceof String str) { // casting and instanceof check are combined in pattern matching
             int length = str.length();
             return "String: " + obj + ", length: " + length;
         } else {
